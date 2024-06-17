@@ -1,0 +1,51 @@
+.title {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.shoe {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+
+.poster {
+  width: 100%;
+  overflow: hidden;
+}
+
+.poster img {
+  transition: all 300ms ease-in-out;
+}
+
+.poster img:hover {
+  scale: 1.05;
+}
+
+.name {
+  text-align: center;
+  margin: 6px 0 12px;
+}
+
+.name:hover {
+  text-align: center;
+  margin: 6px 0 12px;
+}
+
+.box-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.current-price {
+  color: #adadad;
+  text-decoration: line-through;
+}
