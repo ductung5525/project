@@ -114,7 +114,9 @@ export const Cart = () => {
         <Link to="/" className="button-buy">
           Tiếp tục mua hàng
         </Link>
-        <div className="button-payment">Thanh toán</div>
+        <Link to="/Pay" className="button-payment">
+          Thanh toán
+        </Link>
       </div>
     </div>
   );

@@ -1,0 +1,18 @@
+.information{
+    display:flex
+}
+.img-1{
+margin-right: 70px;
+}
+.img-2{
+margin-left: 55px;
+}
+.abc{
+    text-align: center;
+}
+.buy{
+    display:flex
+}
+.contact-form{
+    text-align: center;
+}

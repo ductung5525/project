@@ -1,13 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Layout } from "./layouts";
+
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Security } from "./pages/Security";
 import { Service } from "./pages/Service";
 import { Shoe } from "./pages/Shoe";
-import { Cart } from "./pages/Cart"
+import { Cart } from "./pages/Cart";
+import { Pay } from "./pages/Pay";
 import "./App.css";
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+
           <Route index={true} element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/shoe/:id" element={<Shoe />} />
@@ -22,6 +25,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/Security" element={<Security />} />
           <Route path="/Service" element={<Service />} />
+          <Route path="/Pay" element={<Pay />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
