@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
 import { Layout } from "./layouts";
 
@@ -10,7 +11,9 @@ import { Service } from "./pages/Service";
 import { Shoe } from "./pages/Shoe";
 import { Cart } from "./pages/Cart";
 import { Pay } from "./pages/Pay";
+
 import "./App.css";
+
 
 function App() {
   return (
@@ -29,6 +32,7 @@ function App() {
 
         </Route>
       </Routes>
+      <ToastContainer />
     </BrowserRouter>
   );
 }
